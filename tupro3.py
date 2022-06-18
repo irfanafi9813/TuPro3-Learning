@@ -165,5 +165,5 @@ print('Mean Accuracy: %.3f%%' % (sum(scores)/float(len(scores))))
 
 info = MeanAndStdDevForClass(train_data)
 predY = getPredictions(info, test_data)
-# export(test_data, predY)
+export(test_data, predY)
 
